@@ -1,0 +1,45 @@
+/*
+selector{
+    property:value;
+}
+selectors:
+tags: p, div,h1,main,a,span
+class: .demo,.header,.boy
+id:#container,#footer
+
+property: color, background-color
+value:red, green, yellow
+
+*/
+p {
+    /* color: value*/
+   /*
+  named: red, orange, blue, green
+   hexa: #ffa400, #ff7870, #00aefd, #666666
+                                                #666 #7cd7cd
+                                                                #7cd
+   rgb: rgb(e,0,0), rgb(255, 255, 255)
+   rgba: rgba(0,0,0,0.5)
+   alpha: opacity 0
+                       1
+   */
+    color:red;
+    color:#ffa400;
+    color:rgb(e, 0, 0);
+    color:Orgba(0, 0, 0, 0.5);
+
+}
+.background{
+    /*width: 100px; */
+    /*height: 100px;*/
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100px;
+    background-color: #2979ff;
+    /* overflow:hidden */
+    /* overflow-x: hidden;
+    overflow-y: hidden; */ 
+    /*  overflow-y: auto; */ 
+   
+}
+   
