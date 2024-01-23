@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+      <title>Bài Tập </title>
+      <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+   
+     
+    <section>
+      <form>
+        <img src="https://fs1.formsite.com/formsite/images/logoipsum-259.svg" alt="" width="274" /></div></div>
+
+        <h1>Work Study Application</h1>
+    
+        <label for="name">Student name<b class="icon_required" style="color:#F00">*</b></label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Student email<b class="icon_required" style="color:#F00">*</b></label>
+        <input type="email" id="email" name="email" required />
+        <div class="row">
+            <div class="col-md-6">
+                <label for="inputState" class="form-label">Work study department<b class="icon_required" style="color:#F00">*</b></label>
+                <select id="inputState" class="form-select">
+                  <option selected=""></option>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+            </div>
+            <div class="col-md-6 ">
+                <label for="file">Student resume/CV</label>
+                <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+            </div>
+        </div>
+      
+        <label for="experience">What skills or experience can you contribute to this department?</label>
+        <textarea id="experience" name="experience" rows="4" required></textarea>
+
+        <label for="whyhire">What are you looking to gain from this work study program?</label>
+        <textarea id="whyhire" name="whyhire" rows="4" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
