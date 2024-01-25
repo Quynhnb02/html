@@ -3,16 +3,10 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #FFF3E0;
   color: #333;
 }
 
-header {
-  background-color: #3498db;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-}
 
 section {
   max-width: 600px;
@@ -24,15 +18,18 @@ section {
 }
 
 h1 {
-  background-color: orangered;
+  background-color: #FF9800 ;
   color: white;
-  border: 2px solid orangered;
+  border: 1px solid #FF9800 ;
   border-radius: 12px;
-  padding: 5px;
+  padding: 10px;
   font-size: 24px;
   height: 50px;
-}
   
+}
+p {
+  margin-left: 20px; 
+}
 
 label {
   display: block;
@@ -50,11 +47,29 @@ textarea {
   margin-bottom: 10px;
   box-sizing: border-box;
   border-radius: 6px;
+  border: 1px solid black;
 }
 
 
 button.btn-primary {
-    display: block;
-    margin: 5px auto;
-    background-color: orangered;
+    display: block; 
+    margin: auto;   
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    padding: 15px 30px; 
+    text-align: center; 
+    background-color:#FF9800 ;
+    border: 1px solid #FF9800;
 }
+
+form{
+  background-color: aliceblue;
+
+}
+footer{
+  background: #FFF3E0;
+  margin-top: auto;
+  padding: 5px; 
+  
+}
+
